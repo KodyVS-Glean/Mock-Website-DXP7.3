@@ -1,0 +1,20 @@
+$brand-color-1: var(--brand-color-1);
+$brand-color-2: var(--brand-color-2);
+$brand-color-3: var(--brand-color-3);
+$white: var(--white);
+$black: var(--black);
+$fjord-primary: #E47500;
+$fjord-info: #7BC6DC;
+$fjord-secondary: #BDCADB;
+$fjord-success: #57D192;
+
+:root {
+    --brand-color-1: #E47500;
+    --brand-color-2: #fcfcfc;
+    --brand-color-3: #1B1B1B;
+    --black: #000;
+    --white: #fff;
+    .btn-primary {
+        background-color: $brand-color-1
+    }
+}
