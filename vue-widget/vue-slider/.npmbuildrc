@@ -1,7 +1,7 @@
 {
   "translatorTextKey": "",
   "supportedLocales": [],
-  "liferayDir": "/home/kody/test/liferay",
+  "liferayDir": "/home/kody/liferay/liferay-project-1/liferay-docker",
   "webpack": {
     "rules": [
       {
