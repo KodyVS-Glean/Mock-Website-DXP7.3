@@ -1,0 +1,20 @@
+.footer {
+    a {
+        color: inherit;
+
+        &:hover,
+        &:focus {
+            color: rgb(56, 45, 45);
+        }
+    }
+
+    .fjord-social {
+        @include size(64px);
+        line-height: 64px;
+    
+        &:hover,
+        &:focus {
+            color: white !important;
+        }
+    }
+}

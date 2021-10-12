@@ -1,0 +1,13 @@
+{
+  "translatorTextKey": "",
+  "supportedLocales": [],
+  "liferayDir": "/home/kody/liferay/liferay-project-1/liferay-docker",
+  "webpack": {
+    "rules": [
+      {
+        "test": "src\\/.*\\.js$",
+        "use": "babel-loader"
+      }
+    ]
+  }
+}

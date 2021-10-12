@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  mocksite:
+    image: kodyvansloten/mocksite:latest
+    container_name: mocksite
+    restart: always
+    ports:
+      - '8080:8080'
+    volumes: 
+      - ./liferay-docker:/opt/liferay
